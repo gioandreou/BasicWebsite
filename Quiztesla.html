@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Nikola Tesla:The Inventor</title>
+		<meta name="description"
+			content="A page about life and work of Nikola Tesla"/>
+		<meta name="keywords" content="HTML,CSS">
+        <meta name="author" content="Giorgos Andreou,Christina Gonianaki
+        Isidoros Lemonidis,Kostas Tsioukas">
+
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+		<link href="styles.css" rel="stylesheet">
+		</head>
+		<body>
+			<header>
+				<h1>Nikola Tesla</h1>
+				<nav>
+				<ul>
+					<li><a href="index.html">Home</a><li>
+					<li><a href="biography.html">Biography</a><li>
+					<li><a href="invetions.html">Inventions</a><li>
+					<li><a href="photos.html">Photos</a><li>
+					<li><a href="quotes.html">Quotes</a><li>
+					<li class="now"><a href="Quiztesla.html">Quiz</a><li>
+					<li><a href="comment.html">Comments</a><li>
+					<li><a href="about.html">About</a><li>	
+				</ul>
+				</nav>
+		</header>
+				<h1 id="h1quiz">Let's see how much do you know about Tesla</h1>
+					<div class="quizzler">
+
+            			<div class="ques" id="question"></div>
+             			<div><input type="radio" id="opt1" name="options">
+                			<span id="optt1"></span>
+           				</div>
+            			<div><input type="radio" id="opt2" name="options">
+                			<span id="optt2"></span>
+            			</div>
+            			<div><input type="radio" id="opt3" name="options">
+                		<span id="optt3"></span>
+            			</div>
+            			<div class="lftCss">
+            				<button class="nxtBtn" onclick="checkAnswer()">next ></button>
+
+            			</div>
+            			<div id="score"> <p> Your score is : </p><span id="demo"> </span>
+            			</div>
+            		</div>
+            		<script src="data.js"></script>
+        			<script src="quiztelsa.js"></script>
+				<footer>
+			<h4>An astonishing website about Nikola Tesla. Made by AwesomeDevs 2017&copy;</h4>
+		</footer>
+	</body>

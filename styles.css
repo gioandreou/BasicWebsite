@@ -1,0 +1,194 @@
+body {
+ 	font-family: Arial, Verdana, sans-serif;
+ 	font-size: 12px;
+	margin: 0 auto;
+    background-image:url("img/escheresque_@2X.png");}
+
+h1 {
+	font-size: 200%;
+	text-align: center;}
+
+#content{
+	overflow: auto;}
+
+nav, footer, #feature, #featurebio {
+	margin: 1%;}
+
+#feature{
+	text-align: center;}
+
+.column1, .column2, .column3 {
+	width: 31.3%;
+	float: left;
+	margin: 1%;}
+
+.column3 {
+	margin-right:0%;}
+
+li {
+	display: inline;
+	padding: 8px;}
+
+.now{
+	font-size: 20px;
+	border-bottom: solid 2px #7F2626;
+    display: inline;
+    padding-bottom: 2px;}
+
+li a {
+	color: #7F2626;
+	text-decoration: none;}
+
+li a:hover {
+	color: #000000;
+	font-size: 110%;}
+
+.source{
+	text-align:right;
+	text-decoration: none;
+	margin-right:10px;}
+
+nav{
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 16px;
+	background-color: transparent;
+	padding: 8px; }
+
+footer{
+	background-color: transparent;
+	padding-top: 20px;
+	text-align: center;}
+
+.hbio{
+	text-align: center;}
+
+#featurebio{
+    font-size:14px;
+    padding: 10px;
+	height: 530px;
+	margin-bottom: 16px;
+	background-color: transparent;}
+
+#featurephoto{
+	padding: 10px;
+	height: 100px;
+	margin-bottom: 16px;
+	background-color:transparent;}
+
+#featurequotes{
+	height: 90%;
+	margin-bottom: 16px;
+	background-color:transparent;}
+
+table {
+	font-size: 15px;
+	margin: auto;
+	width: 90%;
+	table-layout: fixed;}
+
+th,td{
+	padding: 30px 30px 30px 30px;}
+
+
+.infotitle{
+	text-align:center;
+	font-size:20px;
+	letter-spacing:2px;}
+
+.firstnt{
+	font-size: 16px;
+	padding: 50px 40px;
+	text-align: center;}
+
+.infocontent{
+    padding: 50px 40px;
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+    font-size:14px;
+    text-align: center;
+    line-height: 150%;}
+
+.webmaster{
+	text-align:center;
+	font-size:20px;
+	letter-spacing:1px;}
+
+#namelist{
+	text-align:center;
+	font-size:16px;
+	line-height: 80%;}
+
+.contact{
+text-align:center;}
+
+#feature{
+background-color: transparent;}
+
+.article {
+background-color: transparent;}
+
+
+#feature, .article {
+text-align:center;
+	height: 280px;
+	margin-bottom: 16px;
+	}
+
+.quizzler{
+	text-align:center;
+	border: solid 1px #000000;
+	margin:auto;
+    width:800px;
+    vertical-align: center;
+    margin:0 auto;
+    background-image:url("img/christmas-dark.png");
+    border: none ;
+    border-radius : 10px ;
+    padding: 20px ;
+    height: 160px ;
+    font-size: 15pt;
+    color: #ffffff;
+	}
+
+.nxtBtn{
+    position: relative ;
+    right : 10px ;
+    float: right;
+    border-radius : 10px ;
+    font-size: 18pt ;
+    background-color: #ffffff  ;
+    color: #000000 ;
+    width: 80px ;
+    height: 35px ;
+}
+
+.comment-container{
+    text-align:center;
+	  margin:auto;
+    width:800px;
+    vertical-align: center;
+    margin:0 auto;
+    border: none ;
+    border-radius : 10px ;
+    padding: 20px ;
+    height: auto;
+}
+
+input[type=email], textarea {
+  width: 100%;
+    padding: 12px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+    color: #8A888B;
+}
+
+#display_comment {
+    border: solid 1px #f3ffff;
+    position: relative;
+    height: 10 %;
+}
